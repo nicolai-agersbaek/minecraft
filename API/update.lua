@@ -8,15 +8,19 @@
 	author: Nathadir
 ]]
 
+assert(os.loadAPI("API/github"), "Failed to load Github API.")
+
 local meta = {
 	version = {"0.1.1", 0, 1, 1},
-	name = "api/update",
-	download = {
-		pastebin = "",
-		github = ""
-	}
+	name = "API/update",
+	pastebin = nil
 }
 
-function check(metaData)
+-- Initialize
+github.setMetaData({
+	name = meta.name
+})
 
+function check(data)
+	
 end
