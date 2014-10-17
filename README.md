@@ -1,4 +1,4 @@
-minecraft
+Minecraft
 =========
 
-ComputerCraft code for Minecraft
+ComputerCraft programs for Minecraft.
